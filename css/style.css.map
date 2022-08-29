@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,gBAAgB,EAAE,IAAI;;ACK1B,KAAK;EACD,SAAS,EAAE,IAAI",
+"sources": ["../sass/blocks/_header.sass","../sass/style.sass"],
+"names": [],
+"file": "style.css"
+}
