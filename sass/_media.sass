@@ -40,10 +40,22 @@
             align-items: center
             justify-content: space-between
             cursor: pointer
+            border: none
             &__line
                 width: 16px
                 height: 1px
                 background-color: $text-color
+    .stars
+        flex-basis: 50%
+    .hotel
+        &-wrapper
+            justify-content: space-between
+        &-info
+            &__rating
+                display: none
+            &__offer
+                order: -1
+                margin-left: 0 
 @media (max-width: 480px)
     .logo
         width: 99px
