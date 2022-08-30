@@ -113,8 +113,7 @@ img {
     width: 132px; }
 
   .navbar__search {
-    margin-left: auto;
-    max-width: 340px; }
+    margin-left: auto; }
   .navbar__top {
     padding-top: 30px;
     padding-bottom: 30px; }
@@ -123,7 +122,10 @@ img {
     padding-bottom: 22px; }
     .navbar__menu__link {
       font-size: 12px;
-      line-height: 15px; } }
+      line-height: 15px; }
+
+  .search__input {
+    width: 340px; } }
 @media (max-width: 768px) {
   .container {
     max-width: 576px;
@@ -138,6 +140,7 @@ img {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
