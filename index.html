@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,700&family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/sweper-bundel.min.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -118,9 +119,39 @@
             <!-- /.hotel-info__right -->
           </div>
           <!-- /.hotel-info -->
+          <div class="hotel-grid">
+            <div class="slider">
+              <!-- Slider main container -->
+              <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="img/slide_1.jpg" alt="slide" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/slide_1.jpg" alt="slide" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/slide_1.jpg" alt="slide" />
+                  </div>
+                  ...
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <button class="slider-button slider-button__prev"></button>
+                <button class="slider-button slider-button__next"></button>
+              </div>
+              <!-- Swiper container clouse -->
+            </div>
+            <!-- /.slider -->
+          </div>
+          <!-- /.hotel-grid -->
         </div>
         <!-- /.container -->
       </section>
     </nav>
+    <script src="js/sweper.bundel.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
