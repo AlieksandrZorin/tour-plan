@@ -1,0 +1,111 @@
+.reviews-title
+    font-size: 36px
+    line-height: 45px
+    margin-bottom: 70px
+    text-align: center
+    text-transform: uppercase
+.reviews
+    padding-top: 40px
+    padding-bottom: 70px
+.qwe
+    display: flex
+    justify-content: center
+
+.reviews-slider
+    &__button1
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        width: 30px
+        height: 30px
+        left: 0
+        background-repeat: no-repeat
+        background-image: url(../img/vector-left.svg)
+        background-position: center
+        background-size: 10px
+        border: none
+        background-color: transparent
+        cursor: pointer
+        z-index: 10
+        
+    &__button2
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        width: 30px
+        height: 30px
+        right: 0
+        background-repeat: no-repeat
+        background-image: url(../img/vector-right.svg)
+        background-position: center
+        background-size: 10px
+        border: none
+        background-color: transparent
+        z-index: 10
+        cursor: pointer
+        
+    &__item
+        position: relative
+        display: flex
+        justify-content: center
+        padding-bottom: 30px
+        background-color: #fff
+        border-radius: 8px
+        margin-top: 45px
+        width: 731px
+        &::after
+            content: ''
+            width: 70px
+            height: 47px
+            background-image: url(../img/qvot-left.svg)
+            background-repeat: no-repeat
+            position: absolute
+            top: 13px
+            left: 65px
+            right: 0
+            bottom: 0
+            z-index: 2
+        &::before 
+            content: ''
+            width: 70px
+            height: 47px
+            background-image: url(../img/qvot-right.svg)
+            background-repeat: no-repeat
+            position: absolute
+            top: 112px
+            left: 601px
+            right: 0
+            bottom: 0
+            z-index: 2
+
+       
+    &__profile
+        width: 607px
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-top: -45px
+        padding-right: 35px
+        padding-left: 35px
+        
+    &__avatar
+        width: 90px
+        height: 90px
+        border-radius: 50%
+        object-fit: cover
+        margin-bottom: 9px
+    &__username
+        margin-bottom: 10px
+        color: $primary
+        font-size: 12px
+        line-height: 15px
+    &__date
+        margin-bottom: 4px
+        font-size: 10px
+        line-height: 13px
+.rat
+    margin-bottom: 32px
+.megan-text
+    font-size: 12px
+    line-height: 19px
+    text-align: justify
