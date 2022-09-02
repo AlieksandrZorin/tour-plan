@@ -60,6 +60,7 @@
 
     .slider
         width: 100%
+   
 @media  (max-width: 768px)
     .container, .newsletter-wrapper
         max-width: 576px
@@ -106,7 +107,34 @@
         width: 100%
     .newsletter
         &-wrapper 
-            flex-wrap: wrap   
+            flex-wrap: wrap 
+    .reviews-slider
+        &__item
+            padding: 0 30px 30px
+            width: 480px  
+            &::after, &::before
+                display: none
+        &__profile
+            width: 460px  
+@media (max-width: 576px)
+    .reviews-slider
+        &__button1
+            position: absolute
+            top: 30px
+            transform: translateX(-50%)
+            width: 30px
+            height: 30px
+            left: 37%
+        
+        
+        &__button2
+            position: absolute
+            top: 30px
+            transform: translateX(-50%)
+            width: 30px
+            height: 30px
+            right: 31%
+                         
 @media (max-width: 480px)
     .logo
         width: 99px
