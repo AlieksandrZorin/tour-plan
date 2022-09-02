@@ -9,9 +9,24 @@
                 height: 100%
                 width: 100%
                 object-fit: cover
+    .newsletter
+    
+        &::before
+      
+        &-wrapper
+        
+        &-title
+       
+        &__strong
+    
+    .subscribe
+    
+        &__input
+        
+        &__button            
 
 @media (max-width: 992px)
-    .container
+    .container, .newsletter-wrapper
         max-width: 700px
     .logo
         width: 132px
@@ -46,7 +61,7 @@
     .slider
         width: 100%
 @media  (max-width: 768px)
-    .container
+    .container, .newsletter-wrapper
         max-width: 576px
         width: 92%
     .navbar
@@ -89,6 +104,9 @@
         width: 100%
     .map
         width: 100%
+    .newsletter
+        &-wrapper 
+            flex-wrap: wrap   
 @media (max-width: 480px)
     .logo
         width: 99px
@@ -97,6 +115,13 @@
     .hotel
         &-slider 
             margin-bottom: 30px
+    .newsletter  
+        padding: 76px 0 83px 0
+        &__title
+            margin-bottom: 37px
+
+    .subscribe
+        width: 100%
     
     
         
