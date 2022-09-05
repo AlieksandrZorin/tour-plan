@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="navbar">
+    <header class="navbar navbar--mobail_fixed">
       <div class="container">
         <div class="navbar-top">
           <a href="#" class="logo">
@@ -52,6 +52,27 @@
       <div class="navbar-bottom">
         <div class="container">
           <ul class="navbar-menu">
+            <li class="navbar-menu__item">
+              <form
+                action="#"
+                class="search navbar__search navbar__search--activ"
+              >
+                <input
+                  type="text"
+                  class="search__input"
+                  placeholder="Search Location"
+                />
+                <button class="search__button">
+                  <img src="img/button.svg" alt="Icon: search" />
+                </button>
+              </form>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="user navbar__user navbar__user--activ">
+                <img src="img/user.png" class="user__avatar" alt="Avatar" />
+                <span class="user__name">Nathan</span>
+              </a>
+            </li>
             <li class="navbar-menu__item">
               <a href="#" class="navbar-menu__link">All Deals</a>
             </li>
