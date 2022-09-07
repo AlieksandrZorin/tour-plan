@@ -216,7 +216,9 @@
                 </a>
               </div>
               <!-- /.boking__call-center -->
-              <button class="button booking__button">View Other Options</button>
+              <button data-toggle="modal" class="button booking__button">
+                View Other Options
+              </button>
               <!-- /.booking__info -->
             </div>
             <!-- /.booking -->
@@ -556,7 +558,7 @@
                 placeholder="Phone Number*"
               />
               <textarea
-                class="footer__message"
+                class="message footer__message"
                 name=""
                 id=""
                 cols="30"
@@ -574,7 +576,58 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__diolog">
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="icon: close" />
+        </a>
+        <h3 class="modal__title">Send us a message</h3>
+        <form action="#" class="modal__form">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Your Full Name*"
+            name="name"
+            required
+            minlength="2"
+          />
+          <input
+            required
+            type="text"
+            class="input modal__input"
+            placeholder="Phone Number*"
+            name="phone"
+            required
+          />
+          <input
+            required
+            type="text"
+            class="input modal__input"
+            placeholder="Your Email *"
+            name="email"
+            required
+            minlength="2"
+          />
+          <textarea
+            class="message modal__message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button class="button modal__button" type="submit">Send</button>
+          <span class="modal__info">* Required Fields</span>
+        </form>
+      </div>
+      <!-- /.modal__diolog-->
+    </div>
+    <!-- /.modal -->
+    <script src="js/jQuery3.6.1.js"></script>
     <script src="js/sweper.bundel.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
